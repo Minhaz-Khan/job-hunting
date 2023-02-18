@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../image/36010be997d482de0efaf92c552437a9.webp'
+import { AuthContext } from '../AuthContext/AuthProvider';
 
 const HeaderNav = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const user = true;
+    const { user, LogOut } = useContext(AuthContext);
+    const handleSignOut = () => {
+        LogOut()
+            .then(result => { })
+            .catch(e => { })
+    }
     return (
         <nav className={isOpen || "relative bg-white shadow dark:bg-gray-800"}>
             <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:z-30 md:items-center">
@@ -39,12 +45,14 @@ const HeaderNav = () => {
                         <li>
                             <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Contact Us</NavLink>
                         </li>
-                        <li>
-                            <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Login</NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Sign Out</NavLink>
-                        </li>
+                        {user ?
+                            <li>
+                                <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" onClick={handleSignOut}>Sign Out</NavLink>
+                            </li> :
+                            <li>
+                                <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to={'/login'}>Login</NavLink>
+                            </li>
+                        }
                     </ul>
 
                     <div className="flex justify-center md:block">
