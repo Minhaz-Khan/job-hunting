@@ -1,0 +1,128 @@
+{
+    "fresher": [
+        {
+            "id": 1,
+            "Name": "CodementorX",
+            "workOn": "Frontend Development",
+            "location": "San Francisco, CA",
+            "jobType": "Internship"
+        },
+        {
+            "id": 2,
+            "Name": "DevGrid",
+            "workOn": "Full Stack Developer",
+            "location": "Quebec City, QC, Canada",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 3,
+            "Name": "Tooploox",
+            "workOn": "Frontend Development",
+            "location": "Wroclaw, Poland;",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 4,
+            "Name": "DockYard",
+            "workOn": "Frontend Development",
+            "location": "San Francisco, CA",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 5,
+            "Name": "Skcript",
+            "workOn": "Frontend Development",
+            "location": "Chennai, India",
+            "jobType": "Internship"
+        },
+        {
+            "id": 6,
+            "Name": "MetaLab",
+            "workOn": "Frontend Development",
+            "location": "Victoria, BC, Canada;",
+            "jobType": "Full Time"
+        }
+    ],
+    "Experienced": [
+        {
+            "id": 7,
+            "Name": "InVision ",
+            "workOn": "Product designers",
+            "location": "San Francisco, CA",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 8,
+            "Name": "Zapier ",
+            "workOn": "data analysts",
+            "location": "Quebec City, QC, Canada",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 9,
+            "Name": "Ghost",
+            "workOn": "Full-stack developers",
+            "location": "Wroclaw, Poland;",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 10,
+            "Name": "HashiCorp",
+            "workOn": "Software engineers",
+            "location": "San Francisco, CA",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 11,
+            "Name": "UserTesting",
+            "workOn": "Product designers",
+            "location": "Chennai, India",
+            "jobType": "Full Time"
+        },
+        {
+            "id": 12,
+            "Name": "Datadog ",
+            "workOn": "Software engineers",
+            "location": "Victoria, BC, Canada;",
+            "jobType": "Full Time"
+        }
+    ],
+    "top_id_Compnay": [
+        {
+            "id": 13,
+            "Name": "DataSoft",
+            "info": "DataSoft is a well-established and respected IT company in Bangladesh that offers a wide range of solutions and services to clients in various industries",
+            "location": "dhaka,bangladesh"
+        },
+        {
+            "id": 14,
+            "Name": "Brain Station 23",
+            "info": "Brain Station 23 is a leading software development and IT consulting company in Bangladesh with a strong focus on innovation, technology, and social responsibility",
+            "location": "dhaka,bangladesh"
+        },
+        {
+            "id": 15,
+            "Name": "Bangla Puzzle Limited",
+            "info": "NewsCred is a well-established and respected content marketing company with a global presence, including in Bangladesh. Its software solutions and services have helped many businesses and brands with their content marketing needs",
+            "location": "dhaka,bangladesh"
+        },
+        {
+            "id": 16,
+            "Name": "Microsoft Corporation",
+            "info": "Microsoft is a major player in the technology industry, known for its innovative software products, hardware devices, and cloud computing services. Its products and services have a significant impact on businesses and individuals worldwide",
+            "location": "Washington, United States"
+        },
+        {
+            "id": 17,
+            "Name": "IBM",
+            "info": "IBM is a major player in the technology industry, known for its innovative products and services in areas such as AI, cloud computing, and consulting. Its contributions to the development of computing and technology have had a significant impact on the industry as a whole",
+            "location": "Armonk, New York, United States"
+        },
+        {
+            "id": 18,
+            "Name": "Accenture",
+            "info": "Accenture is a major player in the professional services industry, known for its broad range of services and its global presence. Its focus on innovation and investment in new technologies have helped it maintain its position as a leader in the industry",
+            "location": "Tokyo, Japan"
+        }
+    ]
+}
