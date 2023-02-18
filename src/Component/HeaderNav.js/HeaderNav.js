@@ -17,7 +17,7 @@ const HeaderNav = () => {
                 <div className="flex items-center justify-between">
                     <Link href="#" className='flex items-center'>
                         <img className="w-12 h-6 sm:h-7" src={logo} alt="" />
-                        <h3 className='text-2xl uppercase font-medium hidden lg:block'>Bookchoix</h3>
+                        <h3 className='text-2xl uppercase font-medium hidden lg:block'>Jobchoix</h3>
                     </Link>
                     {/* <!-- Mobile menu button --> */}
                     <div className="flex md:hidden">
@@ -40,7 +40,7 @@ const HeaderNav = () => {
                     <ul className="flex flex-col md:flex-row md:mx-6">
                         <li><NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" to={'/'}>Home</NavLink></li>
                         <li>
-                            <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">About</NavLink>
+                            <NavLink to={'/about'} className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" >About</NavLink>
                         </li>
                         <li>
                             <NavLink className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Contact Us</NavLink>

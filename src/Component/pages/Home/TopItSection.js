@@ -3,15 +3,15 @@ import React from 'react';
 const TopItSection = ({ company }) => {
     const { Name, info, location } = company
     return (
-        <div class="w-full h-60 max-w-sm px-4 py-3 bg-white rounded-md shadow-md dark:bg-gray-800 relative">
+        <div className="w-full h-60 max-w-sm px-4 py-3 bg-white rounded-md shadow-md dark:bg-gray-800 relative">
 
             <div>
-                <h1 class="mt-2 text-lg font-semibold text-gray-800 dark:text-white">{Name}</h1>
-                <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">{info}</p>
+                <h1 className="mt-2 text-lg font-semibold text-gray-800 dark:text-white">{Name}</h1>
+                <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">{info}</p>
             </div>
 
             <div className=''>
-                <div class="flex items-center mt-2 text-gray-700 dark:text-gray-200">
+                <div className="flex items-center mt-2 text-gray-700 dark:text-gray-200">
                     <span>Visit on: {location}</span>
 
                 </div>
